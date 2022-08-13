@@ -1,0 +1,14 @@
+{
+  "name": "sqlite-logger",
+  "version": "1.0.0",
+  "description": "A very simple tool for logging sqlite data, including whole tables and queries",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "keywords": [
+    "sqlite"
+  ],
+  "author": "Simon Haines",
+  "license": "ISC"
+}
