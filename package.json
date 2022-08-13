@@ -3,12 +3,19 @@
   "version": "1.0.0",
   "description": "A very simple tool for logging sqlite data, including whole tables and queries",
   "main": "index.js",
+  "homepage": "https://github.com/nimonian/sqlite-logger",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nimonian/sqlite-logger.git"
+  },
   "scripts": {
-    "test": "jest --coverage"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "sqlite"
+    "sqlite",
+    "sqlite3",
+    "logging"
   ],
-  "author": "Simon Haines",
+  "author": "Simon Haines <nimon@hotmail.co.uk>",
   "license": "ISC"
 }
