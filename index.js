@@ -1,7 +1,11 @@
 const { logTable } = require('./utils/logTable')
-const { logDatabase } = require('./utils/logDatabase')
+const { logTables } = require('./utils/logTables')
+const { logAllTables } = require('./utils/logAllTables')
+const { logQuery } = require('./utils/logQuery') 
 
 module.exports = {
   logTable,
-  logDatabase
+  logTables,
+  logAllTables,
+  logQuery
 }
